@@ -12,11 +12,9 @@
 
 vector<int> Problem1::Solution::twoSum(vector<int> &nums, int target)
 {
-  for (int xi = 0; xi < nums.size(); ++xi)
-    for (int yi = 0; yi < nums.size(); ++yi)
-      if (xi == yi)
-        continue;
-      else if (nums[xi] + nums[yi] == target)
-        return {xi, yi};
+  for (int x = 0; x < nums.size() - 1; ++x)
+    for (int y = x + 1; y < nums.size(); ++y)
+      if (nums[x] + nums[y] == target)
+        return {x, y};
   return {};
 }
