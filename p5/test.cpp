@@ -8,7 +8,7 @@
  *  @copyright Copyright 2021 Evan Elias Young. All rights reserved.
  */
 
-#include "p5.h"
+#include "ns.h"
 
 using namespace Problem5;
 
