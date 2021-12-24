@@ -10,5 +10,5 @@
 
 #pragma once
 
-#include "p1/p1.h"
-#include "p5/p5.h"
+#include "p1/ns.h"
+#include "p5/ns.h"

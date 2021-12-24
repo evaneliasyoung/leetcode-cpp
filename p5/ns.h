@@ -1,5 +1,5 @@
 /**
- *  @file      p5.h
+ *  @file      ns.h
  *  @brief     Mockup header for 5. Longest Palindromic Substring.
  *
  *  @author    Evan Elias Young
@@ -14,7 +14,6 @@
 #include "../test.h"
 
 #include <algorithm>
-#include <string>
 
 using namespace std;
 

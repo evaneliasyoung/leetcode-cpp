@@ -1,5 +1,5 @@
 /**
- *  @file      p1.h
+ *  @file      ns.h
  *  @brief     Mockup header for 1. Two Sum.
  *
  *  @author    Evan Elias Young
@@ -12,9 +12,6 @@
 
 #include "../stream.h"
 #include "../test.h"
-
-#include <tuple>
-#include <vector>
 
 using namespace std;
 

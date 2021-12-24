@@ -8,7 +8,7 @@
  *  @copyright Copyright 2021 Evan Elias Young. All rights reserved.
  */
 
-#include "p1.h"
+#include "ns.h"
 
 vector<int> Problem1::Solution::twoSum(vector<int> &nums, int target)
 {
