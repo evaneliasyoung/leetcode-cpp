@@ -4,7 +4,7 @@
  *
  *  @author    Evan Elias Young
  *  @date      2021-12-23
- *  @date      2021-12-23
+ *  @date      2021-12-27
  *  @copyright Copyright 2021 Evan Elias Young. All rights reserved.
  */
 
@@ -13,6 +13,7 @@
 int main(int argc, char const *argv[])
 {
   Problem1::test();
+  Problem4::test();
   Problem5::test();
   return 0;
 }
