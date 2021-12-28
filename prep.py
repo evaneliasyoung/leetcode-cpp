@@ -246,8 +246,7 @@ def make_source(prob: Problem) -> None:
 
 
 if __name__ == "__main__":
-    # url: str = input('Problem URL: ')
-    url: str = "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    url: str = input('Problem URL: ')
     codename: Optional[str] = derive_codename(url)
     if codename is not None:
         prob = download(codename)
