@@ -4,7 +4,7 @@
  *
  *  @author    Evan Elias Young
  *  @date      2021-12-27
- *  @date      2021-12-27
+ *  @date      2021-12-28
  *  @copyright Copyright 2021 Evan Elias Young. All rights reserved.
  */
 
@@ -14,10 +14,7 @@ using namespace Problem4;
 
 tests_t<input_t, output_t> Problem4::get_tests()
 {
-  return tests_t<input_t, output_t>{
-    {{{1, 3}, {2}}, 2},
-    {{{1, 2}, {3, 4}}, 2.5},
-  };
+  return tests_t<input_t, output_t>{{{{1, 3}, {2}}, 2}, {{{1, 2}, {3, 4}}, 2.5}};
 }
 
 bool Problem4::run_test(const input_t &inp, const output_t &out)
@@ -32,7 +29,7 @@ bool Problem4::run_test(const input_t &inp, const output_t &out)
        << "Output: " << res << '\n'
        << "Expected: " << out << '\n';
 
-  return false;
+  return out == res;
 }
 
 void Problem4::test()

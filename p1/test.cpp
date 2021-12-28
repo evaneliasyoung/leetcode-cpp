@@ -4,7 +4,7 @@
  *
  *  @author    Evan Elias Young
  *  @date      2021-12-23
- *  @date      2021-12-23
+ *  @date      2021-12-28
  *  @copyright Copyright 2021 Evan Elias Young. All rights reserved.
  */
 
@@ -29,10 +29,7 @@ bool Problem1::run_test(const input_t &inp, const output_t &out)
        << "Output: " << res << '\n'
        << "Expected: " << out << '\n';
 
-  if (out == res)
-    return true;
-
-  return false;
+  return out == res;
 }
 
 void Problem1::test()
