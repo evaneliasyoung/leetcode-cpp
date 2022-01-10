@@ -12,6 +12,6 @@
 
 int main(int argc, char const *argv[])
 {
-  Problem8::test();
+  Problem12::test();
   return 0;
 }
