@@ -23,12 +23,12 @@ bool Problem12::run_test(const input_t &inp, const output_t &out)
 
   const auto res = sol.intToRoman(inp);
 
-  cout << "Input: num = " << inp << '\n' << "Output: \"" << res << '"' << '\n' << "Expected: " << out << '\n';
+  cout << "Input: num = " << inp << '\n' << "Output: \"" << res << '"' << '\n' << "Expected: \"" << out << '"' << '\n';
 
   return out == res;
 }
 
 void Problem12::test()
 {
-  run_tests<input_t, output_t>(get_tests(), "twoSum", run_test);
+  run_tests<input_t, output_t>(get_tests(), "intToRoman", run_test);
 }
